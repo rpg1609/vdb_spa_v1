@@ -1,0 +1,6 @@
+com/vdb/qa/pages/SearchHomePage.class
+com/vdb/qa/base/TestBase.class
+com/vdb/qa/utils/Reporting.class
+com/vdb/qa/pages/LoginPage.class
+com/vdb/qa/utils/XLUtils.class
+com/vdb/qa/pages/SignUpPage.class

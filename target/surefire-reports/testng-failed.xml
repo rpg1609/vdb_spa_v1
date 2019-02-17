@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.vdb.qa.utils.Reporting"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.vdb.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="verifyLoginBtnText"/>
+          <include name="verifyForgotPswdText"/>
+          <include name="setUp"/>
+          <include name="reportUpdate"/>
+          <include name="verifyValidLogin"/>
+          <include name="verifyAlreadyAMemberText"/>
+          <include name="Tear"/>
+          <include name="verifyNotRegisteredYetText"/>
+          <include name="verifySignUpBtnText"/>
+          <include name="verifyInvalidLoginErrorMessage"/>
+        </methods>
+      </class> <!-- com.vdb.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
